@@ -17,7 +17,7 @@ exports.seed = async function(knex) {
     },
     {
       id: 2, 
-      title: 'Raiders of the Lost Ark', 
+      title: 'Indiana Jones: Raiders of the Lost Ark', 
       released: "1981", 
       rating: 'PG',
       description: 'In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis can obtain its awesome powers.',
@@ -71,7 +71,7 @@ exports.seed = async function(knex) {
     },
     {
       id: 8, 
-      title: 'Glass Onion', 
+      title: 'Knives Out: Glass Onion', 
       released: "2022", 
       rating: 'PG-13',
       description: "Tech billionaire Miles Bron invites his friends for a getaway on his private Greek island. When someone turns up dead, Detective Benoit Blanc is put on the case.",

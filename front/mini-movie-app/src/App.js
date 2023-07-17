@@ -7,12 +7,15 @@ export const AppContext = createContext();
 
 function App() {
   const [movies, setMovies] = useState(false);
+  const [search, setSearch] = useState(false);
+  const [results, setResults] = useState(false);
 
   return (
     <>
       <AppContext.Provider value={{
-        movies,
-        setMovies
+        movies, setMovies,
+        search, setSearch,
+        results, setResults
       }}>
         <Router>
           <Routes>
